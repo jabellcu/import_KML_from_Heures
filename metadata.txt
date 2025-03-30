@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Import KML from Heures
+qgisMinimumVersion=3.0
+description=This plugin imports a KML file produced by Heures and writes it to a geopackage, cleaning its columns.
+version=0.1
+author=jabellcu
+email=jabellcu@gmail.com
+
+about=This plugin takes a KML file as exported from Heures, writes its data to a geopackage, filters some of the rows and splits some of the fields into other new useful fields. The resulting layers for stops and lines are loaded into the map.
+
+tracker=https://github.com/jabellcu/import_KML_from_Heures/issues
+repository=https://github.com/jabellcu/import_KML_from_Heures
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, kml, kmz, herures
+
+homepage=https://github.com/jabellcu/import_KML_from_Heures
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
